@@ -18,16 +18,16 @@ author: Jeremiah Wodke
 email: jeremiah@impactstud.io
 description: > # this means to ignore newlines until "baseurl:"
   A blog containing tangents that most of the world could are less about. This blog is for me.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "/blog" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jwizerd
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - paginate
 gems:
-  - jekyll-feed
+  - feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
