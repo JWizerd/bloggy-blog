@@ -15,6 +15,7 @@ Menu
 Variables / Reusables
 ==================================== */
 
+$cream: #f1f1f1;
 $apple: #c03727;
 $watermelon: #ff3333;
 $mango: #ff6633;
@@ -58,7 +59,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 /** Basic styling */
 body {
   font: 400 16px/1.5 $robot, Helvetica, Arial, sans-serif;
-  color: #f1f1f1;
+  color: $cream;
   background-color: #222;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -66,6 +67,34 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+}
+
+.post-content {
+  blockquote + h3 {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  a {
+    &:nth-child(2) {
+      color: $sun; 
+      &:hover {
+        color: $prune;
+      }
+    }
+    &:nth-child(3) {
+      color: $watermelon;
+      &:hover {
+        color: $prune;
+      }
+    }
+    &:nth-child(4) {
+      color: $prune; 
+      &:hover {
+        color: $watermelon;
+      }
+    }
+  }
 }
 
 header {
@@ -84,9 +113,37 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px;
 }
 
+blockquote, 
+.author,
+.home-desc {
+  font-style: italic;
+}
+
+blockquote {
+  margin-top: 40px;
+  color: $sun;
+  border-left: 0;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  &:before {
+    content: '"';
+    font-size: 3em;
+    line-height: 0;
+    position: absolute;
+    bottom: .7em;
+    left: -.75em;
+    color: #444;
+  }
+}
+
+.author {
+  font-size: 1.5em;
+  color: $prune; 
+}
+
 .home-desc {
   text-align: center;
-  font-style: italic;
   font-size: 14px;
   padding-top: 5px;
 }
@@ -123,6 +180,15 @@ a.home:hover {
 
 .posts li, .post-details {
   background-color: #333;
+  blockquote {
+    margin-top: 0;
+    text-transform: initial;
+    font-style: initial;
+    color: $cream;
+    &:before {
+      content: '';
+    }
+  }
 }
 
 .posts li, .post-details {
