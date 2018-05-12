@@ -23,11 +23,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jwizerd
 
 # Build settings
-markdown: kramdown
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
 plugins:
-  - paginate
-gems:
-  - feed
+  - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
