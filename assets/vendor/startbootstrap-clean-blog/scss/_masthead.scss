@@ -22,7 +22,7 @@ header.masthead {
     background-color: $gray-900;
     opacity: 0.5;
   }
-  
+
   h1.logo {
     position: relative;
     background:  #333;
@@ -33,25 +33,27 @@ header.masthead {
     height: 199px;
     width: 199px;
     border: 3px solid;
-  }
-
-  h1.logo span {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 38%;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    padding: 5px 0;
+    span {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 38%;
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      padding: 5px 0;
+    }
   }
 
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 200px 0 150px;
+    padding: 100px 0 50px;
     color: white;
     @media only screen and (min-width: 768px) {
       padding: 200px 0;
+    }
+    @media (min-width: 480px) {
+      padding: 200px 0 150px;
     }
   }
   .page-heading,
