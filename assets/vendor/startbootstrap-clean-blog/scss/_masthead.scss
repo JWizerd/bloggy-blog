@@ -27,8 +27,8 @@ header.masthead {
     position: relative;
     background:  #333;
     border-radius: 50%;
-    font-family: 'Questrial', sans-serif;
-    font-size: 30px !important;
+    @include serif-font;
+    font-size: 27px;
     display: inline-block;
     height: 199px;
     width: 199px;
