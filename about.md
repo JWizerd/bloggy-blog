@@ -4,6 +4,8 @@ layout: page
 background: img/bg-index-zen.jpg
 ---
 
+![](./img/me.jpg)
+
 **My name is Jeremiah**. I'm a software engineer by day, husband/blogger/wannabe philosopher by night. 
 
 You may be wondering, why the name "**Simple Stoic**"? 
