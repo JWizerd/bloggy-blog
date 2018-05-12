@@ -13,8 +13,9 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>
-              <img id="logo" src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}">
+            <h1 class="logo">
+              <span>Simple Stoic</span>
+              <!-- <img id="logo" src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}"> -->
             </h1>
             {% if site.description %}
               <span class="subheading">{{ site.description }}</span>
@@ -58,8 +59,8 @@ layout: default
         {% endfor %}
 
         <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+        <div class="clearfix text-center">
+          <a class="btn btn-primary" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
 
       </div>
