@@ -4,11 +4,11 @@ layout: page
 background: img/bg-index-zen.jpg
 ---
 
-**My name is Jeremiah**, and I'm a simple young man of 26. software engineer by day, husband/blogger/wannabe philosopher by night. 
+**My name is Jeremiah**. I'm a software engineer by day, husband/blogger/wannabe philosopher by night. 
 
 You may be wondering, why the name "**Simple Stoic**"? 
 
-A Stoic is someone who practices Stoicism. Stoicism an ancient philosophy originating in Greece and it's primarily concerned with teaching people how to live within your means, analyzing what those means are, and improving yourself by choosing to live a life of complete intention and purpose. 
+A Stoic is someone who practices Stoicism. Stoicism is an ancient philosophy originating in Greece and it's primarily concerned with teaching people how to live within your means, analyzing what those means are, and improving yourself by choosing to live a life of complete intention and purpose. 
 
 If you'd like a more in depth definition of Stoicism [check out this article ](https://howtobeastoic.wordpress.com/stoicism-101/)
 
